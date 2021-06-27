@@ -16,7 +16,7 @@ class TestPostmanEcho {
                 .post("/post")
                 .then()// Проверки
                 .statusCode(200)
-                .body("data", equalTo("привет"))
+                .body("data", equalTo("Всем привет"))
         ;
 
     }
